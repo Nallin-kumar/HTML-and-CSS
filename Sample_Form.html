@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Registration form </title>
+    </head>
+    <body bgcolor="Lightskyblue">
+        <center> 
+            <img src="Photos/CLG logo.png" >
+            <h1>Symposium Event Registration</h1>
+        </center>
+        <hr width="100%" color="red" size="5px" align="left"/>
+        <h2 align="center ">Registration form </h2>
+        <form action="Welcome.html" method="post">
+            <fieldset><b>
+                <table border="0" align="center" height ="400">
+                    <td><label for="name">Name: </label></td>
+                    <td><input id="name" maxlength="50" name="name" type="text"/></td></tr>
+                    <tr>
+                        <td>
+                            <label for="branch">Branch: </label>
+                        </td>
+                        <td>
+                            <input id="branch" maxlength="50" name="name" type = "text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="institution">Institution: </label>
+                        </td>
+                        <td>
+                            <input id="institution" maxlength="50" name="Institution" type="text"/>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td><label for="email">Email_Address: </label></td>
+                        <td><input id="email" maxlength="50" name="email" type="email"/></td>
+                     </tr>
+                     <tr>
+                        <td><label for="mobile">Mobile no: </label></td>
+                        <td><input type="number"  id="mobile" maxlength="10"></td>
+                     </tr>
+                     <tr>
+                        <td><label for="address">Address</label></td>
+                        <td align = 'middle' align="center">
+                            <textarea rows="4"></textarea>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><label for="State">State: </label></td>
+                        <td><input id="State" maxlength="50" name="State" type="text"></td>
+                     </tr>
+                     <tr>
+                        <td><label for="DOB">DOB: </label></td>
+                        <td><input id="DOB" maxlength="50" name="DOB" type="date"></td>
+                     </tr>
+                     <tr>
+                        <td><label for="gender">Gender: </label></td>
+                        <td>
+                            <input id="gender" maxlength="50" name="gender" type="radio">Male
+                            <input id="gender" maxlength="50" name="gender" type="radio">Female
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><label for="Events">Events:</label></td>
+                        <td><select>
+                            <option> Paper Presentation</option>
+                            <option> Project Expo</option>
+                            <option> Code Debugging</option>
+                            <option> Quiz</option>
+                        </select></td>
+                     </tr>
+                     <tr>
+                        <td colspan="2" align="center">
+                            <input name="Submit" type="submit" value="Submit"/>&nbsp;
+                            <input name="Reset" type="Reset" value="Reset"/>
+                        </td>
+                     </tr>
+                </table>
+            </b>
+        </fieldset>
+        </form>
+
+    </body>
+</html>
